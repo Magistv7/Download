@@ -1,0 +1,84 @@
+/* Estilos Generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: greenyellow;.
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Estilo para los formularios */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input[type="text"], input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 100%;
+}
+
+button {
+    padding: 10px;
+    background-color: #04AA6D;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:focus {
+    outline: none;
+}
+
+/* Estilo para los enlaces */
+a {
+    text-decoration: none;
+    color: #04AA6D;
+    text-align: center;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para el contenedor de los botones adicionales */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Para dispositivos móviles */
+@media (max-width: 480px) {
+    .container {
+        width: 90%;
+    }
+}
